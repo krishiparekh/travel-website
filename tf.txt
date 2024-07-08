@@ -1,0 +1,13 @@
+//connection establishment
+$conn=mysqli('localhost','root','','travel_form');
+if($conn->connect_error){
+die("error while connecting to the 
+server".$conn->connect_error);
+}
+else{
+    $stmt = $conn->prepare("insert into form(Name,Gender,Age,phoneno,Email,Password,Address,Budget,Services) values(?,?,?,?,?,?,?,?,?)");
+    $stmt->bind_param("ssiisssss",$Name,$Gender,$Age,$phoneno,$Email,$Password,$Address,$Budget,$Services);
+    echo "Registration Successfull";
+    $stmt->close();
+    $stmt->close();
+}

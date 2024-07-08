@@ -1,0 +1,316 @@
+
+
+#header{
+    font:arial;
+    background-color:burlywood;
+    display: inline-block;
+    position: fixed ;
+    width: 100%;
+
+}
+#headbtn{
+    padding-left: 20%;
+    padding-top: 2px;
+}
+#darkmode{
+    color:white;
+    background-color: black;
+    padding-top: 2px;
+}
+.darkmode{
+    color: white;
+    background-color:rgb(19, 17, 17) ;
+
+    
+}
+
+.link a{
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+#image{
+    float: left;
+    width:13%;
+    height:22%;
+
+}
+
+#title{
+    color:saddlebrown;
+    font-size: 40px;
+    padding-left: 30%;
+    padding-top: 0%;
+    font-family: algerian;
+}
+#headbar{
+    font-size: 15px;
+    display:inline-flex;
+    place-content: left;
+    margin-left: 31%;
+
+}
+
+#content{
+
+
+}
+#main{
+    font-size: 20;
+}
+
+#innerimg{
+    width: 40%;
+    height: 45%;
+}
+
+
+#sidebar{
+    height: 100%;
+    width: 181px;
+    position: fixed;
+    z-index: 1;
+    top:27%;
+    left:8px;
+    background-color: burlywood;
+    overflow-x: hidden;
+    padding-top: 30px;
+    
+}
+#sidebartext{
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+       
+}
+
+#homecontent{
+    
+    padding-left: 190px;
+    padding-top: 13%;
+}
+
+#homeheadimg{
+    width: 100%;
+    height: 45%;
+}
+#homehead{
+    text-align: center;
+    font-size: 27;
+}
+
+#koutam{
+    width: 30%;
+    height: 40%;
+}
+
+#bennerley{
+    width: 30%;
+    height: 40%;
+    padding-left: 4%;
+}
+#paris{
+    width: 30%;
+    height: 40%;
+    padding-left: 5%;
+}
+
+
+#aboutcontent{
+    padding-left: 200px;
+    background-color: beige;
+    display:inline-flexbox;
+    padding-top: 15%;
+    justify-content: space-evenly;
+}
+
+#aboutimg{
+    width:50%;
+    height:60%;
+    padding-top:14px;
+    padding-right: 10px;
+    padding-left: 120px;
+    float: right;
+    margin-left: -10%;
+}
+
+#aboutimg img{
+    width: 97%;
+    height: 88%;
+}
+
+#abouttext{
+    padding-left:10px ;
+    text-align: left;
+    font-size: 18;
+}
+
+
+.servicecontent{
+    background-color: beige;
+    padding-top: 15%;
+}
+.card{
+    display: inline-block;
+    background-color:blanchedalmond;
+    width: 20%;
+    margin: 30px;
+
+}
+
+.card:hover{
+    box-shadow: 2px 2px 10px;
+    transition: 0.5s;
+}
+
+.cardImage img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: px;
+}
+
+.cardTitle{
+    text-align: center;
+}
+
+.cardDesc{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white ;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#browse{
+    background-color: beige;
+    padding-top: 15%;
+    padding-left: 200px;
+    display:grid;
+
+}
+
+
+
+#browsetxt1{
+    text-align: left;
+    color:crimson;
+    padding-left: 8px;
+    
+}
+
+#tableone{
+    align-content: center;
+    width: 90%;
+	font-size:20;
+    margin: 30px;
+	color: darkslategray;
+    height: 100%;
+
+
+}
+th{
+    color:brown;
+    font:bold;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+tr,td{
+    color: teal;
+}
+#browsetxt2{
+    text-align: left;
+    padding-left: 8px;
+    color: crimson;
+    padding-top: 0px;
+}
+
+
+#tabletwo{
+    align-content: center;
+    width: 80%;
+    height: 90%;
+    font-size: 25;
+    margin: 30px;
+    
+}
+
+
+#contact{
+    padding-left: 200px;
+    padding-top: 13%;
+    background-color: beige;
+
+}
+
+#contacttxt{
+    text-align: center;
+    color: crimson;
+    background-color:beige;
+    padding:21px;
+    text-align:center;
+}
+
+input[type=text],select
+    {
+    width:100%;
+    padding:12px;
+    margin:8px,0;
+    display:inline-block;
+    border:2px solid black;
+    border-radius:3px;
+    box-sizing:border-box;
+    resize:vertical
+    }
+input[type=submit]{
+    width:40%;
+    background-color:white;
+    color:red;
+    padding:14px 20px;
+    margin-left:350px;
+    margin-bottom:20px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    font:bold;
+    }
+input[type=submit]:hover,input[type=text]:hover{
+    background-color:blanchedalmond;
+    }
+
+fieldset{
+    color:black;
+    background-color:beige;
+    }
+textarea{
+    margin:10px;
+    width:100%;
+    height:150px;
+    padding:8px 20px;
+    box-sizing:border-box;
+    border:2px solid black;
+    border-radius:4px;
+    background-color:palegoldenrod;
+    font-size:16px;
+}
+
+
+#footer{
+    color: rgb(109, 73, 29);
+    margin-left: 29%;
+    margin-bottom: 10% ;
+}

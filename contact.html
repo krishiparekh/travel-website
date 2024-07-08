@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>contact</title>
+        <link rel="stylesheet" href="css_style.css">
+        <script type="text/javascript" src="contact.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <img id="image" src="logo.jpeg">
+                <h1 id="title">The Golden View</h1>
+                <ul id="headbar">
+                <li id="headbar"><div class="link"> <a href="main.html"> Home </a></div></li>
+                <li id="headbar"> <div class="link"><a href="about.html"> About</a></div> </li>
+                <li id="headbar"><div class="link"><a href="service.html">Services</a> </div></li>
+                <li id="headbar"><div class="link"><a href="browse.html">Browse</a></div></li>
+                <li id="headbar"><div class="link"><a href="contact.html">Contact</a></div></li>
+                <li id="headbar"><div class="link"><button onclick="switchdark()" id="darkmode"> Dark </button></div></li>
+            </div>
+        </header>
+        <sidebar>
+            <div id="sidebar">
+                <ul id="sidebartext">
+                    <li id="sidebartext"><a href="https://www.thrillophilia.com/places-to-visit-in-europe">places</a></li>
+                    <li id="sidebartext"><a href="https://www.justdial.com/Vadodara/Transporters/nct-10495191">transport</a></li>
+                    <li id="sidebartext"><a href="https://www.tripadvisor.in/SmartDeals-g4-Europe-Hotel-Deals.html">accommodation</a></li>
+                    <li id="sidebartext"><a href="https://www.makemytrip.com/holidays-india/">packages</a> </li>
+                    <li id="sidebartext"><a href="https://business.paytm.com/payment-gateway">payment</a></li>
+                    <li id="sidebartext"><a href="https://www.makemytrip.com/flights/">tickets</a></li>
+                    
+                </ul>
+            </div> 
+        <div id="contact">
+            <div id="contacttxt">
+            <h1>Contact Us</h1>
+        <p>Please fill the form to contact member of our team.</p>
+        </div>
+            <form name="myForm" onsubmit="return validate()" action="" method="post">
+                <fieldset>
+                Name: <input type="text" id="name" name="Name">
+                </fieldset><br> 
+                <fieldset>
+                Gender: Male<input type="radio" name="Gender" value="m"> Female<input type="radio" name="Gender" value="f"> Others<input type="radio" name="Gender" value="o">
+                </fieldset><br>
+                <fieldset>
+                Age: <input type="number" name="Age" min="1" max="100">
+                </fieldset><br>
+                <fieldset>
+                Phone Number:<input id="PhoneNo" type="text" name="phoneno">
+                </fieldset><br>
+                <fieldset>
+                Email: <input type="email" name="Email">
+                </fieldset><br>
+                <fieldset>
+                Password: <input type="password" id="password" name="Password"></fieldset><br>
+                <fieldset>
+                Address: <textarea rows="5" cols="20" name="Address"></textarea>
+                </fieldset><br> 
+                <fieldset>
+                Budget: <select name="Budget">
+                <option>Select Budget</option>
+                <option  name="Budget" value="50000-100000">50000-100000</option>
+                <option name="Budget" value="100000-200000">100000-200000</option>
+                <option name="Budget" value="200000-500000">200000-500000</option>
+                <option name="Budget" value="1000000 and above">1000000 and above</option>
+                </select>
+                </fieldset><br>
+                <fieldset>
+                Services Included : Transport<input type="checkbox" name="Services" value="t"> Accommodation<input type="checkbox"  name="Services" value="a">  Food and beverages<input type="checkbox" name="Services"  value="f">Adventure<input type="checkbox" name="Services" value="ad"> photography<input type="checkbox" name="Services" value="pic">
+                </fieldset><br>
+                <input type="submit"  name="submit" value="Submit">
+                </form>
+        
+        <footer>
+            <div id="footer">
+                <h2>copyright@design and developed by Krishi Parekh</h2>
+            </div>
+        </footer>
+    
+</body>
+</html>

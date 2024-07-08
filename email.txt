@@ -1,0 +1,8 @@
+ var email = document.getElementById("email");
+    var one=email.indexOf("@");
+    var two=email.indexOf("."); 
+ if(one<1 || two<one+2 || two+2>=email.length)
+    {
+        alert("Please enter valid email address \n one:"+one+"\n two:"+two);
+        return false;
+    }
